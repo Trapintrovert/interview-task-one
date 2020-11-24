@@ -18,12 +18,9 @@ const Plan = ({getPlans, plan:{ plan, loading }}) => {
     const {
         phone,
         network
-
     } = formData
     const handleChange = e => {
-
         const {name, value } = e.target;
-
         setFormData({ ...formData, [name] : value})
     }
 
@@ -65,7 +62,6 @@ const Plan = ({getPlans, plan:{ plan, loading }}) => {
                                 value={network}
                                 className="form-control"
                                 handleChange={handleChange}
-                                placeholder="Enter your phone number"
                             >
                                 <option value="">Choose Network</option>
                                 <option value="mtn">MTN</option>
