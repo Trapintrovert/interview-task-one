@@ -1,0 +1,31 @@
+.plan{
+
+  &__content{
+    
+    margin: auto;
+    max-width: 40%;
+    padding: 5rem 2rem;
+    border-radius: 1rem;
+
+   
+    @media only screen and(min-width: 200px) {
+      max-width: 99%;
+    }
+
+    @media only screen and(min-width: 540px) {
+      max-width: 99%;
+    }
+
+    @media only screen and(min-width: 700px) {
+      max-width: 60%;
+    }
+
+    @media only screen and(min-width: 900px) {
+      max-width: 60%;
+    }
+
+    @media only screen and(min-width: 1200px) {
+      max-width: 40%;
+    }
+  }
+}
